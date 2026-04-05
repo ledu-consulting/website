@@ -16,7 +16,7 @@
   <nav class="nav" id="nav">
     <div class="nav__inner">
       <a href="#home" class="nav__brand">
-        <img src="assets/logo.png" alt="LeDu Consulting" class="nav__logo" />
+        <img src="logo.png" alt="LeDu Consulting" class="nav__logo" />
       </a>
       <a href="#contact" class="btn btn--outline">Get in Touch</a>
     </div>
@@ -56,61 +56,12 @@
           Ready to transform your health data strategy?<br />
           We'd love to hear from you.
         </p>
+        <p>
+        <a href="mailto:info@ledu.consulting" class="footer__email">info@ledu.consulting</a>
+        </p>
       </div>
 
-      <!--
-        Formspree setup:
-        1. Go to https://formspree.io and create a free account
-        2. Create a new form and copy your Form ID
-        3. Replace YOUR_FORM_ID below with it (e.g. xpwzabcd)
-      -->
-      <form
-        class="contact__form"
-        action="https://formspree.io/f/YOUR_FORM_ID"
-        method="POST"
-      >
-        <div class="form__row">
-          <div class="form__field">
-            <label for="name" class="form__label">Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              class="form__input"
-              placeholder="Your name"
-              required
-            />
-          </div>
-          <div class="form__field">
-            <label for="email" class="form__label">Email</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              class="form__input"
-              placeholder="your@email.com"
-              required
-            />
-          </div>
-        </div>
-
-        <div class="form__field">
-          <label for="message" class="form__label">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            class="form__textarea"
-            placeholder="Tell us about your project or challenge…"
-            required
-          ></textarea>
-        </div>
-
-        <input type="hidden" name="_replyto" value="info@ledu.consulting" />
-
-        <button type="submit" class="btn btn--primary">Send Message</button>
-      </form>
-    </div>
-  </section>
+   
 
   <!-- ─── Footer ────────────────────────────────────────────── -->
   <footer class="footer">
